@@ -1,8 +1,5 @@
-**dawn_lim_515E**
-Full Name: Dawn Lim
-Email: thediningnook@gmail.com
 
-# Submission Folder Structure
+# Folder Structure
 ├── src
 │ ├── main.py
 │ └── model_evaluation.py
