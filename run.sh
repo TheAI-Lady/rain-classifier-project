@@ -1,0 +1,1 @@
+python ./src/model_evaluation.py --db_path ./data/fishing.db
