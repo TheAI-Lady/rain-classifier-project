@@ -80,3 +80,7 @@ NOTE: Default filepath is relative to this the execution of the run.sh directory
 - This is the recommended choice of model to be used for deployment as it has the highest recall value of 92% as well as the highest overall accuracy of 90%.
 
 
+Demo:
+https://nbviewer.jupyter.org/github/TheAI-Lady/rain-classifier-project/blob/master/notebook.ipynb
+
+
