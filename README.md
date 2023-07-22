@@ -81,6 +81,5 @@ NOTE: Default filepath is relative to this the execution of the run.sh directory
 
 
 Demo:
-https://nbviewer.jupyter.org/github/TheAI-Lady/rain-classifier-project/blob/master/notebook.ipynb](https://nbviewer.jupyter.org/github/TheAI-Lady/rain-classifier-project/blob/master/eda_rain.ipynb)https://nbviewer.jupyter.org/github/TheAI-Lady/rain-classifier-project/blob/master/eda_rain.ipynb
-
+https://nbviewer.jupyter.org/github/TheAI-Lady/rain-classifier-project/blob/master/eda_rain.ipynb
 
