@@ -95,9 +95,10 @@ NOTE: Default filepath is relative to this the execution of the run.sh directory
 
 # Model Choice
 **Random Forest Classifier(RFC)**
-- Our goal is to determine whether it will rain tomorrow. Missing rainy days (not predicting rain when it actually rains) is more problematic, thus should focus on recall value.
-- RFC model has a high recall value of 83% for predicting rain tomorrow which means that the model is capturing most of the rainy days, even if it also produces some false alarms.
-- This is the recommended choice of model to be used for deployment as it has the highest recall value of 83% as well as the highest overall accuracy of 98%.
+	- Our goal is to determine whether it will rain tomorrow. Missing rainy days (not predicting rain when it actually rains) is more problematic, thus should focus on recall value.
+	- RFC model has a high recall value of 83% for predicting rain tomorrow which means that the model is capturing most of the rainy days, even if it also produces some false alarms.
+	- This is the recommended choice of model to be used for deployment as it has the highest recall value of 83% as well as the highest overall accuracy of 99%.
+	- The cross validation and AUROC score are pretty high at (0.94) and (0.92) respectively. 
 
 
 Demo:
