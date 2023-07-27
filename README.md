@@ -67,17 +67,37 @@ NOTE: Default filepath is relative to this the execution of the run.sh directory
 	- A high recall means the model is capturing most of the rainy days, even if it also produces some false alarms.
 	- Overall accuracy is also used as a secondary metric for model selection. A higher accuracy is an indication of a better-fit model. 
 
-- A total of 4 classification models were tested, their corresponding recall values and accuracy are:
-    - Logistic Regression Classifier - 79% / 80%
-    - Random Forest Classifier - 92% / 90%
-    - Support Vector Machine Classifier - 80% / 80%
-	-Gradient Boosting Classifier - 88% / 88%
+1. A total of 6 classification models were tested using Ensemble Classifier, their corresponding recall values and accuracy are:
+	    - Ensemble Classifier:             Recall (0.79)/ Accuracy (0.99)
+	    - K Nearest Neighbors Classifier:  Recall (0.67)/ Accuracy (0.98)
+	    - Random Forest Classifier:        Recall (0.83)/ Accuracy (0.99)
+	    - Support Vector Machine:          Recall (0.77)/ Accuracy (0.99)
+	    - Gradient Boosting Classifier:    Recall (0.83)/ Accuracy (0.98)
+	    - Decision Tree Classifier:        Recall (0.85)/ Accuracy (0.98)
+	    - AdaBoost Classifier:             Recall (0.79)/ Accuracy (0.99)
+
+2. Cross Validation Scores:
+	- KNN - Average cross-validation score: 0.9354520082122955
+	- RandomForest - Average cross-validation score: 0.9446175572910047
+	- SupportVector - Average cross-validation score: 0.8906970207982011
+	- GradientBoosting - Average cross-validation score: 0.8768619457980906
+	- DecisionTree - Average cross-validation score: 0.9180210821033544
+	- AdaBoost - Average cross-validation score: 0.8490839888690136
+
+3. Area under the curve score:
+	- KNN - Auroc: 0.9119082043963748
+	- RandomForest - Auroc: 0.9216989634970708
+	- SupportVector - Auroc: 0.9129018326573533
+	- GradientBoosting - Auroc: 0.9111868459265936
+	- DecisionTree - Auroc: 0.8971555630664463
+	- AdaBoost - Auroc: 0.9134917505382805
+   
 
 # Model Choice
 **Random Forest Classifier(RFC)**
 - Our goal is to determine whether it will rain tomorrow. Missing rainy days (not predicting rain when it actually rains) is more problematic, thus should focus on recall value.
-- RFC model has a high recall value of 92% for predicting rain tomorrow which means that the model is capturing most of the rainy days, even if it also produces some false alarms.
-- This is the recommended choice of model to be used for deployment as it has the highest recall value of 92% as well as the highest overall accuracy of 90%.
+- RFC model has a high recall value of 83% for predicting rain tomorrow which means that the model is capturing most of the rainy days, even if it also produces some false alarms.
+- This is the recommended choice of model to be used for deployment as it has the highest recall value of 83% as well as the highest overall accuracy of 98%.
 
 
 Demo:
