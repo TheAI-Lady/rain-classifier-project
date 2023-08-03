@@ -68,13 +68,13 @@ NOTE: Default filepath is relative to this the execution of the run.sh directory
 	- Overall accuracy is also used as a secondary metric for model selection. A higher accuracy is an indication of a better-fit model. 
 
 1. Ensemble Classifier corresponding recall values and accuracy are:
-	- Ensemble Classifier:             Recall (0.79)/ Accuracy (0.99)
-	- K Nearest Neighbors Classifier:  Recall (0.67)/ Accuracy (0.98)
-	- Random Forest Classifier:        Recall (0.83)/ Accuracy (0.99)
-	- Support Vector Machine:          Recall (0.77)/ Accuracy (0.99)
-	- Gradient Boosting Classifier:    Recall (0.83)/ Accuracy (0.98)
-	- Decision Tree Classifier:        Recall (0.85)/ Accuracy (0.98)
-	- AdaBoost Classifier:             Recall (0.79)/ Accuracy (0.99)
+	- Ensemble Classifier:             Recall (0.82)/ Accuracy (0.99)
+	- K Nearest Neighbors Classifier:  Recall (0.73)/ Accuracy (0.98)
+	- Random Forest Classifier:        Recall (0.84)/ Accuracy (0.99)
+	- Support Vector Machine:          Recall (0.81)/ Accuracy (0.99)
+	- Gradient Boosting Classifier:    Recall (0.84)/ Accuracy (0.98)
+	- Decision Tree Classifier:        Recall (0.84)/ Accuracy (0.98)
+	- AdaBoost Classifier:             Recall (0.80)/ Accuracy (0.99)
 
 2. Cross Validation Scores:
 	- KNN - Average cross-validation score: 0.9354520082122955
